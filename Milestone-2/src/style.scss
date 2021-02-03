@@ -1,0 +1,10 @@
+@import 'partials/common';
+@import 'partials/header';
+@import 'partials/navbar';
+@import 'partials/main';
+@import 'partials/variables';
+
+//RESET
+
+* {margin:0; padding: 0; box-sizing: border-box; color: white; font-size: 15px;}
+h5 {color: $h3_color;}

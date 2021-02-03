@@ -1,0 +1,29 @@
+#app_main {
+    width: 100vw;
+    background: $main_color;
+    padding: 20px 0 60px 0;
+
+    #main_container_one {
+        width: 1300px;
+        margin: auto;
+    }
+    #main_container_one > #card_album{
+        width: calc(100% / 6);
+        margin: 18px;
+        padding: 26px 0;
+        background: black;
+        display: flex;
+        display: inline-block;
+        flex-direction: column;
+        text-align: center;
+        line-height: 26px;
+        img {
+            width: 100%;
+            padding: 20px;
+        }
+
+        h3 {
+            font-size: 14px;
+        }
+    }
+}
